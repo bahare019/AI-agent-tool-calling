@@ -1,0 +1,6 @@
+.env
+history.json
+agent_log.txt
+workspace/
+__pycache__/
+.venv/
