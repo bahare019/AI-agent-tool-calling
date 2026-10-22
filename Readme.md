@@ -86,15 +86,6 @@ python agent.py
 
 The default model is set in `config.py`. Pick one that supports tool calling (many free OpenRouter models do, but quality varies).
 
-## Example
-
-<!-- Replace this with a real transcript or screenshot from your own run -->
-```
-You: Read data.csv with pandas and compute the total revenue (price * qty)
-[tool called: run_python_code(...)]
-Agent: The total revenue is 209000.
-```
-
 Files placed in `workspace/` are visible to the sandboxed code at `/workspace`.
 
 ## Adding a tool
@@ -119,6 +110,3 @@ That's all. `agent.py` does not change.
 - Human confirmation before sensitive tool calls
 - Automated tests and a small evaluation set
 
-## License
-
-MIT
